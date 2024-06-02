@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/fundo.jpg);
+}
+
+body h2{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+}
+
+.container h2{
+    margin: 50px;
+}
+
+.container input, button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.container input{
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: 140px;
+}
+.container button{
+    width: 50%;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+
+#add{
+    background-color: #008000;
+}
+
+#rmv{
+    background-color: #f10b0b;
+}
+
+#lista{
+    list-style-image: url(../img/balloon-3945_128.gif);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 100px;
+    color: #000000;
+    
+}
+
+
+
